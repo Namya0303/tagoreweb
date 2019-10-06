@@ -65,7 +65,7 @@ a{
     background-color:#111;
 }
 .card-body{
-    background-color:#000;
+    background-color:#222;
     color:#fff;
     font-weight:300;
     font-size: 1.5rem;
@@ -96,7 +96,7 @@ a{
     font-size: 2rem
 }
 .eicon {
-    font-size: 4rem
+    font-size: 16rem
 }
 #crctab .col-lg-4 h2 {
     padding: 1rem;
