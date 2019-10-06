@@ -1,0 +1,141 @@
+.notice hr{
+    color:#fff;
+    width:50%;
+}
+button, a, input {
+    outline: none !important;
+    cursor: pointer
+}
+
+.heads{
+    text-align: center;
+    font-size:3rem;
+}
+.banner {
+    height: 6rem;
+    width: 100%;
+    position: relative
+}
+.navbar {
+    animation: 1s fromtop ease-out;
+    -webkit-animation: 1s fromtop ease-out;
+    transition: .4s ease-out;
+    background-color:#1f3b6b;
+    font-family: 'Comfortaa';
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 0
+}
+.navbar li {
+    transition: .2s ease-out;
+}
+.navbar li:hover, .navbar li a.active {
+    background-color:#325FAD;
+    border-radius: 10px
+}
+.navbar li a {
+    height: 100%;
+    color: #fff;
+    padding: 1rem;
+}
+.navbar-toggler {
+    color: #fff;
+    border-color: rgba(255,255,255,0.6);
+}
+a{
+    color:#3669c1;
+    text-decoration: none;
+}
+.news{
+    background-color: #111;
+    overflow-y: scroll;
+    height:430px;  
+}
+.news ul{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    
+}
+.events{
+    overflow-y: scroll;
+    font-size:1.5rem;
+    float:right;
+    font-weight:100;
+    margin-left:50px;
+    background-color:#111;
+}
+.card-body{
+    background-color:#000;
+    color:#fff;
+    font-weight:300;
+    font-size: 1.5rem;
+}
+.calender {
+    width:auto;
+    height:auto;
+    float: left;
+    margin-right: 20%
+}
+.news li {
+    list-style-type: none
+}
+.news li:not(.bge) {
+    list-style-type: circle
+}
+.monts {
+    font-family: 'Montserrat'
+}
+.robo {
+    font-family: 'Roboto'
+}
+.quick {
+    font-family: 'Quicksand'
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none !important;
+    font-size: 2rem
+}
+.eicon {
+    font-size: 4rem
+}
+#crctab .col-lg-4 h2 {
+    padding: 1rem;
+}
+#crctab .col-lg-4 {
+    cursor: pointer;
+    transition: .4s ease-out
+}
+#crctab .col-lg-4:hover {
+    background-color: #fff;
+    color: #000
+}
+.none {
+    display: none;
+}
+.intro {
+	height: 100%;
+	width: 100%;
+	background-color: #222;
+	padding-top: 40vh;
+	text-align: center;
+	transition: .2s ease-out;
+    color: #fff
+}
+.logo, .logof {
+	font-family: 'Montserrat';
+	font-size: 2rem;
+	animation: 5s typing;
+	-webkit-animation: 5s typing;
+	margin: 0 auto;
+	overflow: hidden;
+    white-space: nowrap;
+	font-weight: 500
+}
+@keyframes typing {from{width: 0}to{width: 100%}}
+@-webkit-keyframes typing {from{width: 0}to{width: 100%}}
+
+@media screen and (max-width: 915px) {
+    .nav {
+        text-align: center
+    }
+}
